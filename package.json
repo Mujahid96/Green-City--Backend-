@@ -1,0 +1,31 @@
+{
+  "name": "e-commarce",
+  "version": "1.0.0",
+  "description": "",
+
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.7",
+    "body-parser": "^1.19.0",
+    "braintree": "^3.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-validator": "5.3.1",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.2",
+    "nodemon": "^2.0.12",
+    "sslcommerz": "^1.7.0",
+    "uuid": "^8.3.2"
+  }
+}
