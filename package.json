@@ -2,14 +2,13 @@
   "name": "e-commarce",
   "version": "1.0.0",
   "description": "",
-
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
-  
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^7.4.7",
@@ -24,6 +23,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
     "mongoose": "^6.0.2",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.12",
     "sslcommerz": "^1.7.0",
     "uuid": "^8.3.2"
